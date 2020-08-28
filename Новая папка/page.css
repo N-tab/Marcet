@@ -1,6 +1,10 @@
 .mar{
 	align-items: center;
-	columns: 3;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+	/*columns: 3;*/
 }
 .fl1{
 	float: right;
@@ -65,6 +69,8 @@ body{
   font-family: "Open Sans";
   transition: .3s ease-in;
   border-radius: 5% ;
+  float: left;
+  margin: auto;
 }
 .product-item:hover {border-bottom: 2px solid #fc5a5a;}
 .product-item img {
