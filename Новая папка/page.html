@@ -28,7 +28,9 @@
 	</header>
 	<div style="align-items: center; text-align: center;"><h1 class="main-p">Товары</h1></div>
 	<div class="mar">
-		<div class="product-item">
+		<?php
+echo <<<END
+<div class="product-item">
 			<img src="https://html5book.ru/wp-content/uploads/2015/10/black-dress.jpg">
 			<div class="product-list">
 				<h3>Черное платье(Размер: )</h3>
@@ -36,16 +38,24 @@
 				<a href="https://www.instagramm.com/p/CD9B2XVAy8O/?utum_sorce=ig_web_copy_link" class="button">Заказать</a>
 			</div>
 		</div>
-		<div class="product-item">
-			<img src="https://html5book.ru/wp-content/uploads/2015/10/black-dress.jpg" >
+END;
+?>
+		
+				<?php
+echo <<<END
+<div class="product-item">
+			<img src="https://html5book.ru/wp-content/uploads/2015/10/black-dress.jpg">
 			<div class="product-list">
 				<h3>Черное платье(Размер: )</h3>
 				<span class="price">0 UAH</span>
 				<a href="https://www.instagramm.com/p/CD9B2XVAy8O/?utum_sorce=ig_web_copy_link" class="button">Заказать</a>
 			</div>
 		</div>
+END;
+?>
 
-		<div class="product-item">
+		echo <<<END
+<div class="product-item">
 			<img src="https://html5book.ru/wp-content/uploads/2015/10/black-dress.jpg">
 			<div class="product-list">
 				<h3>Черное платье(Размер: )</h3>
@@ -53,6 +63,8 @@
 				<a href="https://www.instagramm.com/p/CD9B2XVAy8O/?utum_sorce=ig_web_copy_link" class="button">Заказать</a>
 			</div>
 		</div>
+END;
+?>
 	</div>
 </body>
 </html>		
