@@ -140,7 +140,8 @@ body{
 		padding-bottom: 10px;
 		padding-top: 1px;
 		font-family: 'Dancing Script', cursive;
-		font-size: 7px;
+		font-size: 10px;
+                margin: 0;
 	}
 	.fl1{
 		float: right;
